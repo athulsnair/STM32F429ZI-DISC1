@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.27.0.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Athul S Nair, Makercity, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.27.0.0
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.0.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\STM32F4\KeilWorkspace\SPI\spi.uvprojx
+Project File Date:  09/26/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling hal_gpio_driver.c...
+compiling spi_master.c...
+spi_master.c(181): warning:  #223-D: function "memset" declared implicitly
+  		memset(ack_buf,0,2);
+spi_master.c(187): warning:  #223-D: function "memset" declared implicitly
+  		memset(ack_buf,0,2);
+spi_master.c(192): warning:  #111-D: statement is unreachable
+  	return 0;
+spi_master.c(89): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t i=0;
+spi_master.c(91): warning:  #177-D: variable "data"  was declared but never referenced
+  	uint8_t data = 'a';
+spi_master.c(92): warning:  #177-D: variable "indata"  was declared but never referenced
+  	uint8_t indata;
+spi_master.c(73): warning:  #177-D: function "Buffercmp"  was declared but never referenced
+  static uint16_t Buffercmp(uint8_t* pBuffer1, uint8_t* pBuffer2, uint16_t BufferLength)
+spi_master.c: 7 warnings, 0 errors
+compiling hal_spi_driver.c...
+hal_spi_driver.c(278): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t i =0,val;
+hal_spi_driver.c(278): warning:  #550-D: variable "val"  was set but never used
+  	uint32_t i =0,val;
+hal_spi_driver.c: 2 warnings, 0 errors
+assembling startup_stm32f429xx.s...
+compiling retarget_io.c...
+compiling led.c...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=1948 RO-data=460 RW-data=20 ZI-data=1084  
+".\Objects\spi.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.1.pack
+                Keil.ARM_Compiler.1.6.1
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDERR Variant: Breakpoint Version: 1.2.0
+   * Component: STDIN Variant: Breakpoint Version: 1.2.0
+   * Component: STDOUT Variant: Breakpoint Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.2
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDERR:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDIN:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil::Device:Startup:2.6.2
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f429xx.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F42xxx_43xxx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>

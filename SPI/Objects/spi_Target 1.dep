@@ -1,0 +1,83 @@
+Dependencies for Project 'spi', Target 'Target 1': (DO NOT MODIFY !)
+F (.\hal_gpio_driver.c)(0x5C83F77A)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F429xx-o .\objects\hal_gpio_driver.o --omf_browse .\objects\hal_gpio_driver.crf --depend .\objects\hal_gpio_driver.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (hal_gpio_driver.h)(0x5C83F77A)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F429xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F61BC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5866EE)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FB68C)
+F (.\hal_gpio_driver.h)(0x5C83F77A)()
+F (.\hal_spi_driver.c)(0x5D8CF4AD)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F429xx-o .\objects\hal_spi_driver.o --omf_browse .\objects\hal_spi_driver.crf --depend .\objects\hal_spi_driver.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (hal_spi_driver.h)(0x5CF14E16)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F429xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F61BC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5866EE)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FB68C)
+F (.\hal_spi_driver.h)(0x5CF14E16)()
+F (.\spi_master.c)(0x5D8CF917)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F429xx-o .\objects\spi_master.o --omf_browse .\objects\spi_master.crf --depend .\objects\spi_master.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F61BC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5866EE)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FB68C)
+I (hal_spi_driver.h)(0x5CF14E16)
+I (hal_gpio_driver.h)(0x5C83F77A)
+I (spi_main.h)(0x5D8CF7D3)
+I (led.h)(0x5C83F7E9)
+F (.\spi_main.h)(0x5D8CF7D3)()
+F (.\led.c)(0x5C83F821)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F429xx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (hal_gpio_driver.h)(0x5C83F77A)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F429xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F61BC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5866EE)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FB68C)
+I (led.h)(0x5C83F7E9)
+F (.\led.h)(0x5C83F7E9)()
+F (.\spi_slave.c)(0x5D8CF7B2)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F429xx-o .\objects\spi_slave.o --omf_browse .\objects\spi_slave.crf --depend .\objects\spi_slave.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F61BC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5866EE)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FB68C)
+I (hal_spi_driver.h)(0x5CF14E16)
+I (hal_gpio_driver.h)(0x5C83F77A)
+I (spi_main.h)(0x5D8CF7D3)
+I (led.h)(0x5C83F7E9)
+F (D:\Keil\ARM\PACK\Keil\ARM_Compiler\1.6.1\Source\retarget_io.c)(0x584E4CE6)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F429xx-o .\objects\retarget_io.o --omf_browse .\objects\retarget_io.crf --depend .\objects\retarget_io.d)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x599EF054)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x599EF054)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x599EF054)
+I (D:\Keil\ARM\ARMCC\include\assert.h)(0x5C9E4690)
+I (D:\Keil\ARM\ARMCC\include\rt_sys.h)(0x599EF054)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D88D8DA)
+F (RTE\Device\STM32F429ZITx\startup_stm32f429xx.s)(0x5C83FDC1)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "STM32F429xx SETA 1"--list .\listings\startup_stm32f429xx.lst --xref -o .\objects\startup_stm32f429xx.o --depend .\objects\startup_stm32f429xx.d)
+F (RTE\Device\STM32F429ZITx\system_stm32f4xx.c)(0x5A8FB68C)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F429xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5A8FB68C)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B6193AC)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x599EF056)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F61BC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5866EE)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B6193AC)
+I (D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5A8FB68C)
